@@ -59,7 +59,8 @@ class ODBCDb extends Db
      * @return mixed Connection status
      */
     public function doConnect($host, $user, $password, $database, $port, $charset)
-    {
+	{
+		die("HUIIIIIIIIIIIIIIIHJAAAAAAAAA");
         /* establish connection */
         if (empty($this->m_link_id)) {
             if (empty($port)) {
