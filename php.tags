@@ -1,0 +1,158 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ODBCDb	src/ODBCDb.php	/^class ODBCDb extends Db$/;"	c
+ODBCDdl	src/ODBCDdl.php	/^class ODBCDdl extends Ddl$/;"	c
+ODBCQuery	src/ODBCQuery.php	/^class ODBCQuery extends Query$/;"	c
+__construct	src/ODBCDb.php	/^    public function __construct()$/;"	f
+__construct	src/ODBCDdl.php	/^    public function __construct()$/;"	f
+_addFrom	src/ODBCQuery.php	/^    public function _addFrom(&$query)$/;"	f
+_addLimiter	src/ODBCQuery.php	/^    public function _addLimiter(&$query)$/;"	f
+_getTableType	src/ODBCDb.php	/^    public function _getTableType($table)$/;"	f
+_query	src/ODBCDb.php	/^    protected function _query($query, $isSystemQuery)$/;"	f
+_setErrorVariables	src/ODBCDb.php	/^    public function _setErrorVariables()$/;"	f
+_translateError	src/ODBCDb.php	/^    public function _translateError($errno = null)$/;"	f
+addSequenceField	src/ODBCQuery.php	/^    public function addSequenceField($fieldName, &$value, $seqName = null)$/;"	f
+affected_rows	src/ODBCDb.php	/^    public function affected_rows()$/;"	f
+buildCount	src/ODBCQuery.php	/^    public function buildCount($distinct = false)$/;"	f
+buildCreate	src/ODBCDdl.php	/^    public function buildCreate()$/;"	f
+buildField	src/ODBCDdl.php	/^    public function buildField($name, $generictype, $size = 0, $flags = 0, $default = null)$/;"	f
+buildInsert	src/ODBCQuery.php	/^    public function buildInsert()$/;"	f
+buildView	src/ODBCDdl.php	/^    public function buildView($name, $select, $with_check_option)$/;"	f
+commit	src/ODBCDb.php	/^    public function commit()$/;"	f
+config	src/ODBCDdl.php	/^        $config = Config::getGlobal('db_mysql_default_'.$generictype.'_columntype');$/;"	v
+db_fmt	src/ODBCDb.php	/^        $db_fmt = array('%Y', '%m', '%d', '%H', '%h', '%i', '%s');$/;"	v
+ddl	src/ODBCDb.php	/^            $ddl = Ddl::create('MySqli');$/;"	v
+debugWarnings	src/ODBCDb.php	/^    public function debugWarnings()$/;"	f
+disconnect	src/ODBCDb.php	/^    public function disconnect()$/;"	f
+doConnect	src/ODBCDb.php	/^    public function doConnect($host, $user, $password, $database, $port, $charset)$/;"	f
+dropAll	src/ODBCDb.php	/^    public function dropAll()$/;"	f
+dropSequence	src/ODBCDdl.php	/^    public function dropSequence($name)$/;"	f
+dropView	src/ODBCDdl.php	/^    public function dropView($name)$/;"	f
+error	src/ODBCDb.php	/^        $error = mysqli_error($this->m_link_id);$/;"	v
+escapeSQL	src/ODBCDb.php	/^    public function escapeSQL($string, $wildcard = false)$/;"	f
+executeInsert	src/ODBCQuery.php	/^    public function executeInsert()$/;"	f
+fields	src/ODBCQuery.php	/^            $fields = $this->quoteFields($this->m_fields);$/;"	v
+format	src/ODBCDb.php	/^            $format = Config::getGlobal('date_to_char', 'Y-m-d');$/;"	v
+func_datetochar	src/ODBCDb.php	/^    public function func_datetochar($fieldname, $format = '')$/;"	f
+generictype	src/ODBCDdl.php	/^            $generictype = 'text';$/;"	v
+getErrorType	src/ODBCDb.php	/^    public function getErrorType()$/;"	f
+getGenericType	src/ODBCDdl.php	/^    public function getGenericType($type)$/;"	f
+getInsertId	src/ODBCDb.php	/^    public function getInsertId()$/;"	f
+getSearchModes	src/ODBCDb.php	/^    public function getSearchModes()$/;"	f
+getType	src/ODBCDdl.php	/^    public function getType($generictype)$/;"	f
+i	src/ODBCDb.php	/^            $i = 0;$/;"	v
+id	src/ODBCDb.php	/^                $id = $this->_query("SELECT * FROM `{$table}` LIMIT 0", true);$/;"	v
+id	src/ODBCDb.php	/^                $id = $this->_query($query, true);$/;"	v
+id	src/ODBCDb.php	/^                $id = @$this->_query("SELECT * FROM `{$dbname}`.`{$tablename}` LIMIT 0", true);$/;"	v
+id	src/ODBCDb.php	/^            $id = $this->_query("SHOW TABLES LIKE '".$table."'", true);$/;"	v
+id	src/ODBCDb.php	/^            $id = $this->_query('SHOW TABLES FROM `'.$dbname."` LIKE '".$tablename."'", true);$/;"	v
+id	src/ODBCDb.php	/^        $id = $this->_query("SHOW TABLE STATUS LIKE '".$table."'", true);$/;"	v
+loadMetaData	src/ODBCDdl.php	/^    public function loadMetaData($tablemeta)$/;"	f
+lock	src/ODBCDb.php	/^    public function lock($table, $mode = 'write')$/;"	f
+locktables_fallback_on_error	src/ODBCDb.php	/^    public function locktables_fallback_on_error($query, $querymode = 'w')$/;"	f
+m_affected_rows	src/ODBCDb.php	/^                $this->m_affected_rows = mysqli_affected_rows($this->m_link_id);$/;"	v
+m_affected_rows	src/ODBCDb.php	/^            $this->m_affected_rows = 0;$/;"	v
+m_affected_rows	src/ODBCDb.php	/^            $this->m_affected_rows = mysqli_affected_rows($this->m_link_id);$/;"	v
+m_errno	src/ODBCDb.php	/^            $this->m_errno = mysqli_connect_errno();$/;"	v
+m_errno	src/ODBCDb.php	/^            $this->m_errno = mysqli_errno($this->m_link_id);$/;"	v
+m_errno	src/ODBCDb.php	/^        $this->m_errno = mysqli_errno($this->m_link_id);$/;"	v
+m_error	src/ODBCDb.php	/^            $this->m_error = mysqli_connect_error();$/;"	v
+m_error	src/ODBCDb.php	/^            $this->m_error = mysqli_error($this->m_link_id);$/;"	v
+m_error	src/ODBCDb.php	/^        $this->m_error = mysqli_error($this->m_link_id);$/;"	v
+m_fieldquote	src/ODBCQuery.php	/^    public $m_fieldquote = '`';$/;"	v
+m_identifierQuoting	src/ODBCDb.php	/^    protected $m_identifierQuoting = array('start' => '`', 'end' => '`', 'escape' => '`');$/;"	v
+m_insert_id	src/ODBCDb.php	/^            $this->m_insert_id = mysqli_insert_id($this->m_link_id);$/;"	v
+m_insert_id	src/ODBCDb.php	/^    public $m_insert_id;$/;"	v
+m_link_id	src/ODBCDb.php	/^            $this->m_link_id = 0;$/;"	v
+m_link_id	src/ODBCDb.php	/^            $this->m_link_id = @mysqli_connect($host, $user, $password, $database, $port);$/;"	v
+m_query_id	src/ODBCDb.php	/^                $this->m_query_id = 0;$/;"	v
+m_query_id	src/ODBCDb.php	/^            $this->m_query_id = $this->_query($query, false);$/;"	v
+m_query_id	src/ODBCDb.php	/^            $this->m_query_id = $this->_query($query, true);$/;"	v
+m_query_id	src/ODBCDb.php	/^            $this->m_query_id = 0;$/;"	v
+m_record	src/ODBCDb.php	/^        $this->m_record = @mysqli_fetch_array($this->m_query_id, MYSQLI_ASSOC | Config::getGlobal('mysqlfetchmode'));$/;"	v
+m_returnSeqValue	src/ODBCQuery.php	/^        $this->m_returnSeqValue = true;$/;"	v
+m_returnSeqValue	src/ODBCQuery.php	/^    protected $m_returnSeqValue = false;$/;"	v
+m_row	src/ODBCDb.php	/^            $this->m_row = $position;$/;"	v
+m_row	src/ODBCDb.php	/^            $this->m_row = 0;$/;"	v
+m_seqField	src/ODBCQuery.php	/^        $this->m_seqField = $fieldName;$/;"	v
+m_seqField	src/ODBCQuery.php	/^    protected $m_seqField;$/;"	v
+m_seqValue	src/ODBCQuery.php	/^            $this->m_seqValue = $this->getDb()->getInsertId();$/;"	v
+m_seqValue	src/ODBCQuery.php	/^        $this->m_seqValue = &$value;$/;"	v
+m_seqValue	src/ODBCQuery.php	/^        $this->m_seqValue = -1;$/;"	v
+m_seqValue	src/ODBCQuery.php	/^    protected $m_seqValue;$/;"	v
+m_seq_field	src/ODBCDb.php	/^    public $m_seq_field = 'nextid';$/;"	v
+m_seq_namefield	src/ODBCDb.php	/^    public $m_seq_namefield = 'seq_name';$/;"	v
+m_seq_table	src/ODBCDb.php	/^    public $m_seq_table = 'db_sequence';$/;"	v
+m_table_type	src/ODBCDdl.php	/^        $this->m_table_type = $type;$/;"	v
+m_table_type	src/ODBCDdl.php	/^    private $m_table_type;$/;"	v
+m_type	src/ODBCDb.php	/^        $this->m_type = 'MySqli';$/;"	v
+m_type	src/ODBCDb.php	/^    public $m_type = 'mysql';$/;"	v
+m_user_error	src/ODBCDb.php	/^        $this->m_user_error = array(1451);$/;"	v
+m_vendor	src/ODBCDb.php	/^        $this->m_vendor = 'mysql';$/;"	v
+matches	src/ODBCDb.php	/^        $matches = [];$/;"	v
+meta	src/ODBCQuery.php	/^        $meta = $this->getDb()->tableMeta($this->m_tables[0]);$/;"	v
+metadata	src/ODBCDb.php	/^    public function metadata($table, $full = false)$/;"	f
+mode	src/ODBCDb.php	/^        $mode = $this->getQueryMode($query);$/;"	v
+name	src/ODBCDdl.php	/^        $name = $this->m_db->escapeSQL($name);$/;"	v
+name	src/ODBCDdl.php	/^        $name = $this->m_db->quoteIdentifier($name);$/;"	v
+new_name	src/ODBCDdl.php	/^        $new_name = $this->m_db->escapeSQL($new_name);$/;"	v
+new_name	src/ODBCDdl.php	/^        $new_name = $this->m_db->quoteIdentifier($new_name);$/;"	v
+next_record	src/ODBCDb.php	/^    public function next_record()$/;"	f
+nextid	src/ODBCDb.php	/^                    $nextid = $result[$this->m_seq_field] + 1;$/;"	v
+nextid	src/ODBCDb.php	/^    public function nextid($sequence)$/;"	f
+num_fields	src/ODBCDb.php	/^    public function num_fields()$/;"	f
+num_rows	src/ODBCDb.php	/^    public function num_rows()$/;"	f
+offset	src/ODBCDb.php	/^                        $offset = ($finfo->flags & MYSQLI_UNSIGNED_FLAG) ? 1 : 2;$/;"	v
+php_fmt	src/ODBCDb.php	/^        $php_fmt = array('Y', 'm', 'd', 'H', 'h', 'i', 's');$/;"	v
+port	src/ODBCDb.php	/^                $port = null;$/;"	v
+prefix	src/ODBCQuery.php	/^                $prefix = ' AND ';$/;"	v
+prefix	src/ODBCQuery.php	/^                $prefix = ' WHERE ';$/;"	v
+query	src/ODBCDb.php	/^                    $query = 'INSERT INTO '.$this->m_seq_table." VALUES('$sequence', 1)";$/;"	v
+query	src/ODBCDb.php	/^                    $query = 'UPDATE '.$this->m_seq_table.' SET '.$this->m_seq_field." = '$nextid' WHERE ".$this->m_seq_namefield." = '$sequence'";$/;"	v
+query	src/ODBCDb.php	/^                $query = 'SELECT '.$this->m_seq_field.' FROM '.$this->m_seq_table.' WHERE '.$this->m_seq_namefield." = '$sequence'";$/;"	v
+query	src/ODBCDb.php	/^            $query = "LOCK TABLES $table $mode";$/;"	v
+query	src/ODBCDb.php	/^    public function query($query, $offset = -1, $limit = -1)$/;"	f
+query	src/ODBCDdl.php	/^        $query = parent::buildCreate();$/;"	v
+regexpCondition	src/ODBCQuery.php	/^    public function regexpCondition($field, $value, $inverse = false)$/;"	f
+renameSequence	src/ODBCDdl.php	/^    public function renameSequence($name, $new_name)$/;"	f
+renameTable	src/ODBCDdl.php	/^    public function renameTable($name, $new_name)$/;"	f
+result	src/ODBCDb.php	/^                $result = @mysqli_fetch_array($id);$/;"	v
+result	src/ODBCDb.php	/^            $result = $this->_query($query, true);$/;"	v
+result	src/ODBCDb.php	/^            $result = $this->_query('UNLOCK TABLES', true);$/;"	v
+result	src/ODBCDb.php	/^            $result = [];$/;"	v
+result	src/ODBCDb.php	/^        $result = $status != null && isset($status['Engine']) ? $status['Engine'] : null;$/;"	v
+result	src/ODBCDb.php	/^        $result = @mysqli_data_seek($this->m_query_id, $position);$/;"	v
+result	src/ODBCDb.php	/^        $result = @mysqli_num_rows($id) > 0;$/;"	v
+result	src/ODBCDb.php	/^        $result = [];$/;"	v
+result	src/ODBCDb.php	/^        $result = is_array($this->m_record);$/;"	v
+result	src/ODBCDdl.php	/^            $result = preg_replace('\/VARCHAR\\(([0-9]+)\\)\/i', 'VARCHAR(\\1) BINARY', $result);$/;"	v
+result	src/ODBCDdl.php	/^        $result = parent::buildField($name, $generictype, $size, $flags, $default);$/;"	v
+result	src/ODBCQuery.php	/^            $result = 'SELECT COUNT(*) as count FROM ';$/;"	v
+result	src/ODBCQuery.php	/^            $result = 'SELECT COUNT(DISTINCT ';$/;"	v
+result	src/ODBCQuery.php	/^        $result = 'INSERT INTO '.$this->quoteField($this->m_tables[0]).' (';$/;"	v
+result	src/ODBCQuery.php	/^        $result = parent::executeInsert();$/;"	v
+rollback	src/ODBCDb.php	/^    public function rollback($savepoint = '')$/;"	f
+savepoint	src/ODBCDb.php	/^    public function savepoint($name)$/;"	f
+seek	src/ODBCDb.php	/^    public function seek($position = 0)$/;"	f
+setTableType	src/ODBCDdl.php	/^    public function setTableType($type)$/;"	f
+soundexCondition	src/ODBCQuery.php	/^    public function soundexCondition($field, $value, $inverse = false)$/;"	f
+status	src/ODBCDb.php	/^        $status = @mysqli_fetch_array($id, MYSQLI_ASSOC);$/;"	v
+stmt	src/ODBCDb.php	/^        $stmt = $this->_query('SHOW WARNINGS', true);$/;"	v
+string	src/ODBCDb.php	/^                $string = str_replace('%', '\\%', $string);$/;"	v
+table	src/ODBCDb.php	/^            $table = $matches[1];$/;"	v
+table	src/ODBCDdl.php	/^        $table = $this->m_db->quoteIdentifier($this->m_db->m_seq_table);$/;"	v
+tableExists	src/ODBCDb.php	/^    public function tableExists($table)$/;"	f
+tableType	src/ODBCDb.php	/^            $tableType = $this->_getTableType(isset($tablename) ? $tablename : $table);$/;"	v
+table_names	src/ODBCDb.php	/^    public function table_names($includeViews = true)$/;"	f
+tables	src/ODBCDb.php	/^        $tables = $this->table_names();$/;"	v
+toggleForeignKeys	src/ODBCDb.php	/^    public function toggleForeignKeys($enable)$/;"	f
+type	src/ODBCDdl.php	/^        $type = strtolower($type);$/;"	v
+unlock	src/ODBCDb.php	/^    public function unlock()$/;"	f
+unlock_table	src/ODBCDb.php	/^                $unlock_table = true;$/;"	v
+unlock_table	src/ODBCDb.php	/^            $unlock_table = false;$/;"	v
+vendorDateFormat	src/ODBCDb.php	/^    public function vendorDateFormat($format)$/;"	f
+warnings	src/ODBCDb.php	/^        $warnings = [];$/;"	v
