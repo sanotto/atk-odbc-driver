@@ -1,0 +1,21 @@
+{
+  "name": "sanotto/atkOdbcDriver",
+  "description": "ATK ODBC Driver",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "framework",
+    "skeleton",
+    "atk"
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "sintattica/atk": "9.0.x-dev",
+    "sanotto/atk-builder": "^2.1",
+    "sanotto/atk-mod-global-search": "@dev"
+  },
+  "autoload": {
+
+    "psr-4": {"Sintattica\\Atk\\": "src/"}
+  }
+}
